@@ -1,0 +1,41 @@
+.app {
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  form input {
+    padding: 8px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  form button {
+    padding: 8px 12px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .clear-btn {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

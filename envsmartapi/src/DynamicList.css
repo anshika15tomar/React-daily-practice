@@ -1,0 +1,52 @@
+/* src/components/DynamicList.css */
+.list {
+  padding: 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  width: 250px;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  height: 20%;
+  object-fit: contain;
+}
+
+.card h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  /* REMOVE height and overflow from here */
+}
+
+.card p {
+  font-weight: bold;
+  margin: 10px 0;
+  /* DON'T fix height or overflow here */
+}
+
+.card button {
+  padding: 8px 12px;
+  background: #ff4c4c;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
